@@ -7,10 +7,12 @@
     @Styles.Render("~/Content/css")
     @Scripts.Render("~/bundles/modernizr")
     @Styles.Render("~/Content/fontawesome")
-
+    <link rel="stylesheet" type="text/css"
+          href="https://fonts.googleapis.com/css?family=Tangerine">
+    <link href="https://fonts.googleapis.com/css?family=Indie+Flower" rel="stylesheet">
 </head>
-<body>
-    <div class="navbar navbar-inverse navbar-fixed-top">
+<body style="font-family:'Indie Flower',cursive;font-size:20px">
+    <div class="navbar navbar-inverse navbar-fixed-top" >
         <div class="container">
             <div class="navbar-header">
                 <button type="button" class="navbar-toggle" data-toggle="collapse" data-target=".navbar-collapse">
@@ -20,7 +22,7 @@
                 </button>
                 <a class="navbar-brand" href="@Url.Action("Index","Home")"><img src="~/Assets/images/logo.png"/> </a>
             </div>
-            <div class="navbar-collapse collapse">
+            <div class="navbar-collapse collapse" style="font-family:'tangerine',serif;font-size:20px">
                 <ul class="nav navbar-nav">
                     <li><a href="@Url.Action("Index", "Home")"><i class="fa fa-home fa-lg"></i> Home</a></li>
                     <li><a href="@Url.Action("About", "Home")"><i class="fa fa-info fa-lg"></i> About</a></li>
