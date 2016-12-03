@@ -182,6 +182,8 @@
   </ItemGroup>
   <ItemGroup>
     <Content Include="Assets\images\AppetizerHome.jpg" />
+    <Content Include="Assets\images\background.jpg" />
+    <Content Include="Assets\images\bannerjpg.jpg" />
     <Content Include="Assets\images\Box.jpg" />
     <Content Include="Assets\images\DimSumHome.jpg" />
     <Content Include="Assets\images\Entreehome.jpg" />
